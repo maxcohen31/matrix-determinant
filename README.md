@@ -1,4 +1,4 @@
-# NxN matrix determinant using Laplace expansion
+## NxN matrix determinant using Laplace expansion
 
 ### Run
 ```bash
