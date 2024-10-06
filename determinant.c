@@ -50,7 +50,7 @@ int determinant(int **matrix, int n)
         // excluding first row and column i
         for (int sub_row = 1; sub_row < n; sub_row++)
         {
-            // got stuck in here  
+            // got stuck here  
             // https://stackoverflow.com/questions/59121487/how-do-i-implement-the-laplace-expansion-algorithm-in-c
             int sub_col = 0; // column of submatrix
             for (int k = 0; k < n; k++)
