@@ -92,8 +92,6 @@ int main(int argc, char *argv[])
         printf("Rows and columns must be the same size!");
         exit(EXIT_FAILURE);
     }
-    
-    int dim = row;
 
     int **mat = (int**)malloc(row*sizeof(int*));
     for (int i = 0; i < row; i++)
@@ -114,7 +112,7 @@ int main(int argc, char *argv[])
         }
     }
 
-    int det = determinant(mat, dim);
+    int det = determinant(mat, row);
     printf("Determinant is equal to: %d\n", det); 
 
     // deallocate memory
